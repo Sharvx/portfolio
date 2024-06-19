@@ -1,0 +1,56 @@
+:root{
+    --color1:#F9F9F9;
+    --color2:#004884;
+    --color3:#646464;
+    --color4:#F9F9F9;
+    --color5:#0078DB;
+    --color6:#004884;
+}
+
+
+.active{
+    color: var(--color2);
+}
+
+.award-container{
+    padding: 100px;
+}
+
+.award-text-1{
+    font-size: 35px;
+    font-family: poppins;
+    font-weight: bold;
+    color: var(--color6);
+    margin-left: 15px;
+}
+
+.awards-list-1{
+    color: var(--color5);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.awards-list-1 ul{
+    margin: 0px;
+}
+
+.award-text-2{
+    font-size: 35px;
+    font-family: poppins;
+    font-weight: bold;
+    color: var(--color6);
+    margin-left: 15px;
+}
+
+.awards-list-2{
+    color: var(--color5);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.awards-list-2 ul{
+    margin: 0px;
+}

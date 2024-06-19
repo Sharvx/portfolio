@@ -1,0 +1,85 @@
+:root{
+    --color1:#F9F9F9;
+    --color2:#004884;
+    --color3:#646464;
+    --color4:#F9F9F9;
+    --color5:#0078DB;
+    --color6:#004884;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 175px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.text-area{
+    margin-left: 200px;
+    height:300px;
+}
+
+.image-area{
+    margin-right: 200px;
+}
+
+
+.text1{
+    color: var(--color5);
+    font-size: 23px;
+    font-family: poppins;
+}
+
+.text2{
+    color: var(--color6);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: poppins;
+    font-family: poppins;
+}
+
+.text3{
+    color: var(--color5);
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 28px;
+}
+
+.text4{
+    color: var(--color5);
+    font-family: poppins;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.more{
+    color: var(--color3);
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.more:hover{
+    color: var(--color2);
+}
+
+
+.img1{
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+
